@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: .5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.flex{
+    display: flex;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 50%;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0 3px black;
+}
+.input-holder{
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+
+.input-holder>label{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.input-holder>input{
+    padding: 10px;
+    font-size: 18px;
+    caret-color: green;
+    border-radius: 5px;
+    color: grey;
+    width: 75%;
+}
+
+.input-holder>input::placeholder{
+    opacity: .6;
+}
+
+.btn-holder{
+    display: flex;
+    
+    justify-content: center;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 18px;
+    justify-self: center;
+    cursor: pointer;
+    
+
+}
+
+.btn:hover{
+    opacity: .9 ;
+}
+.btn:active{
+    opacity: .7;
+}
+
+
+#right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    flex: 50%;
+}
+
+#table{
+    /* width: 60%; */
+    
+}
+
+#table th{
+    font-size: 17px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+#table td {
+    
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    /* border: 2px solid green; */
+    
+ 
+}
+
+.span{
+    font-size: 16px;
+    text-transform: capitalize  ;
+    color: red;
+    margin-left: 10px;
+}
+
+/* style for trash icon which is created by js */
+#js-unistall-button-style{
+    cursor: pointer;
+    transition-duration: .10s;
+    padding: 5px;
+
+}
+
+#js-unistall-button-style:hover{
+    color: red;
+}
+
+#js-unistall-button-style:active{
+    opacity: .7;
+    text-align: left;
+}
